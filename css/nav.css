@@ -1,0 +1,353 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    
+}
+.logo img{
+    
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+   
+    align-items: center;
+    margin: 10px 10px;
+}
+/* li::before{
+    content: 'hello';
+} */
+
+#close {
+    font-size: 3.6rem;
+    color: #000;
+    display: none;
+}
+#menu-icon {
+    font-size: 3.6rem;
+    color: #000;
+    display: none;
+}
+.carousel-item img{
+   max-height: 650px;
+   object-fit: cover;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 25px;
+    padding: 50px;
+  
+}
+.btn-body{
+    margin-top: 25px;
+    padding:  10px 20px;
+    background: cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+}
+.one{
+    padding: 50px 0;
+    background: url(/assets/matthew-smith-Rfflri94rs8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.row h4{
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+span{
+    color: cyan;
+}
+
+footer{
+    background-color: #110d0d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#footer-title{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+#foo-para{
+    width: 40%;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.icons i{
+    font-size: 22px;
+    border: 2px solid gray;
+    padding: 15px;
+    border-radius: 50%;
+    transition: background ease-in 1s;
+   
+}
+.icons i:hover{
+   background: rgb(158, 7, 158);
+   
+}
+.copyright{
+    background: #000;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+}
+.copyright p{
+    margin: 10px;
+    font-size: 18px;
+}
+.copyright p a{
+   text-decoration: none;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #0073e6;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .newsTitle {
+    margin-top: 20px;
+    margin-bottom: 25px
+  }
+  
+ 
+  .newsTitle p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+ 
+  .newsTitle p:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02);
+  }
+
+@media(max-width: 800px){
+    .logo img{
+       width: 50px;
+        height: 50px;
+    }  
+    .nav-links {
+        position: fixed;
+       top: 0px;
+       right: -1000px;
+        width: 80%;
+        padding: 90px 0 0 50px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 100%;
+        background: #fff;
+        z-index: 1;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+    .nav-btn{
+        margin: 0;
+    }
+
+
+#menu-icon {
+    font-size: 3rem;
+    margin-top: 15px;
+    color: #000;
+    display: block;
+}
+#close {
+    position: absolute;
+    display: block;
+    top: 30px;
+    left: 400px;
+    font-size: 50px;
+    font-family: 700;
+}
+
+.carousel-caption {
+    display: block;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    transform: translate(50%, 50%);
+    width: 100%;
+    font-size: 20px;
+    padding: 50px;
+}
+.btn-body {
+    margin-top: 10px;
+    padding: 10px 25px;
+    background: cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+}
+.d-none {
+    display: block !important;
+}
+.card{
+    margin-top: 20px;
+}
+
+}
+
+@media(max-width: 600px){
+    .logo img{
+        width: 35px;
+         height: 35px;
+     }  
+     
+ #menu-icon {
+     font-size: 30px;
+     margin-top: 15px;
+     color: #000;
+     display: block;
+ }
+
+    .carousel-caption {
+        display: block;
+        position: absolute;
+        top: -65%;
+        left: -50%;
+        transform: translate(50%, 50%);
+        width: 100%;
+        font-size: 10px;
+        padding: 50px;
+    }
+    .btn-body {
+        margin-top: 5px;
+        padding: 5px 15px;
+        background: cadetblue;
+        border: 1px solid cadetblue;
+        border-radius: 10px;
+    }
+    .nav-links {
+        position: fixed;
+       top: 0px;
+       right: -1000px;
+        width: 100%;
+        padding: 90px 0 0 50px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 100%;
+        background: #fff;
+        z-index: 1;
+    }
+    #close {
+        position: absolute;
+        display: block;
+        top: 30px;
+        left: 300px;
+        font-size: 20px;
+        font-family: 700;
+    }
+    footer{
+        background-color: #110d0d;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+   
+    
+    #foo-para{
+        width: 60%;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 2rem;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+    .icons i{
+        font-size: 20px;
+        border: 2px solid gray;
+        padding: 15px;
+        border-radius: 50%;
+        flex-wrap: wrap;
+       
+    }
+    .copyright{
+        background: #000;
+        width: 100%;
+        text-align: center;
+        padding: 8px;
+    }
+    .copyright p{
+        margin: 10px;
+        font-size: 18px;
+    }
+   
+}
+@media(max-width: 400px){
+    #footer-title{
+      
+        font-size: 30px;
+        
+    }
+    #foo-para{
+        width: 80%;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 2rem;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+    .icons i{
+        font-size: 15px;
+        border: 2px solid gray;
+        padding: 12px;
+        border-radius: 50%;
+        flex-wrap: wrap;
+       
+    }
+    .copyright p{
+        margin: 10px;
+        font-size: 15px;
+    }
+
+}

@@ -1,0 +1,98 @@
+h1{
+    color: aqua;
+}
+/* span{
+    color: red;
+} */
+/* #hello{
+    color: greenyellow;
+} */
+
+.title{
+    color: red;
+}
+.second-title{
+    color: brown;
+}
+.animal-list{
+    list-style: none;
+}
+.fruit-list{
+    list-style: none;
+}
+.plant-img{
+    width: 300px;
+    height: 200px;
+   
+}
+.anime-img{
+    width: 200px;
+    height: 150px;
+}
+
+thead{
+    background: grey;
+}
+tbody{
+    background: rgb(219, 210, 210);
+}
+td{
+    padding: 10px 15px;
+    
+}
+table{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.one{
+    padding: 50px 0;
+    background: url(/assets/matthew-smith-Rfflri94rs8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+nav{
+    display: flex;
+  
+    justify-content: space-around;
+    /* margin: 10px 10px; */
+    
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 10px 10px;
+}
+.btn{
+    margin-top: 11px;
+    
+}
+.bg img{
+    width: 100%;
+    
+}
+
+.cat-img img{
+    width: 40rem;
+    
+}
+.three-first-content{
+    padding: 40px;
+    background: green;
+    position: absolute;
+    margin-left: 100px;
+}
+.three-second-content{
+    padding: 40px;
+    background: black;
+    color: #fff;
+    position: relative;
+    margin-right: 100px;
+}

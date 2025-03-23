@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            display: inline-block;
+        }
+
+        #box1 {
+            position: static;
+        }
+
+        #box2 {
+            position: relative;
+            top: 20px;
+            left: 30px;
+            z-index: 1;
+        }
+
+        #box3 {
+            position: sticky;
+            top: 500px;
+            left: 20px;
+        }
+
+        #box4 {
+            position: fixed;
+            bottom: 0;
+            top: 0;
+
+        }
+        p::before {
+            content: "Hello- ";
+        }
+        p::after{
+            content: " Bajracharya";
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <!-- the position css property sets how an element is positioned in a document 
+    position
+    static: default position (the top right bottom left and z index properties have no effect)
+    relative: element is relative to itself. (the top, right, bottom left and zindex will work)
+    absolute: positioned relative to its closest positioned ancestor. (removed from flow)
+    fixed: position relative to browser(remove from flow)
+
+    z-index: it decides the stack level of element
+    overlapping element with a larger zindex cover those with smaller one
+
+
+
+    -->
+    <h1>Position playground</h1>
+    <p>My name is Pratish.</p>
+    <div id="box1" style="background-color: red;">box1</div>
+    <div id="box2" style="background-color: green;">box2</div>
+    <div id="box3">box3</div>
+  
+    <div id="box4" style="background-color: pink;">box4</div>
+
+    
+</body>
+
+</html>
