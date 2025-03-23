@@ -1,0 +1,40 @@
+centrailized verision control system there computer are conneted all projects are managed there if that server is lost/damaged this will make failure all program so to overcome that problem git was introduced which is distributed version control system in which the copy of file or progarm will be available in another computer
+
+similary github is hosting server in which we can keep a file available in git. 
+
+
+local file => staging area => repository
+
+
+initialize git : git init
+
+shows status:  git status
+
+config:
+$ git config --global user.email "bajracharyapratish148@gmail.com"
+$ git config --global user.name "Pratish Bajracharya"
+
+to add file to stagig area:
+git add filename
+git add filename.txt filename2.txt (for two file
+git add .  (for all file)
+
+To commit the changes
+git commit -m message
+
+git log => view commit history
+git log --oneline => view in oneline
+
+git checkout SHA-1
+git checkout master
+
+push our code to github
+git push origin master
+git diff --staged
+
+To copy/clone github repo to computer file
+git clone "url"
+
+git branch
+git checkout -b main
+git checkout master
